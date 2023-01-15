@@ -1,0 +1,21 @@
+﻿  "osdk_build.bat"
+  osdk_config.bat
+  Building the program notanotherboulderdashclone at adress $800 [OSDK 1.14]
+  Assembling buldashoric_data.S zzzzzzzzzzzzzzzzzzzz
+  Assembling buldashoric_music.S zzzzzzzzzzzzzzzzzzzz
+  Assembling buldashoric_fonts.S zzzzzzzzzzzzzzzzzzzz
+  Assembling buldashoric_sprites.S zzzzzzzzzzzzzzzzzzzz
+  Assembling buldashoric_routines.S zzzzzzzzzzzzzzzzzzzz
+  Assembling buldashoric_routines2.S zzzzzzzzzzzzzzzzzzzz
+  Assembling buldashoric_routines3.S zzzzzzzzzzzzzzzzzzzz
+  Linking
+  C:\Users\seb\source\repos\NotAnotherBoulderDashCloneOricAtmos\NOTANOTHERBOULDERDASHCLONE
+  Assembling xxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Creating final program notanotherboulderdashclone.TAP
+  File 'build\notanotherboulderdashclone.tap' is 39055 bytes long (14 bytes header and 39041 bytes of data)
+  Build of notanotherboulderdashclone.tap finished
+          1 fichier(s) copié(s).
+          1 fichier(s) copié(s).
+          1 fichier(s) copié(s).
+  "osdk_build.bat2"
+  Appuyez sur une touche pour continuer... 

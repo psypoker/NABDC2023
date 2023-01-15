@@ -1,0 +1,74 @@
+@ECHO ON
+echo "osdk_config.bat"
+::
+:: Set the build paremeters
+::
+SET OSDKADDR=$500
+::SET OSDKNAME=osdksample
+
+::SET OSDKNAME=mandelbrout
+::SET OSDKFILE=main_mandelbrout charmap
+
+::SET OSDKNAME=hilifegame
+::SET OSDKFILE=mainlifegame charmap display2 tables_6 maths lifegame time fastdiv10 
+
+::SET OSDKNAME=0lsystem
+::SET OSDKFILE= main_0lsystem_recur main_0lsystem_recur_asm time maths
+
+::SET OSDKFILE= 0LSystem time maths charmap
+
+:: SET OSDKFILE= main_cinematics cinematics
+
+:: SET OSDKFILE=orictoolz time redux scroll raw6 rol4 maths scrollbit graphics tables_6 prog ytabledemo
+ ::::SET OSDKNAME=hboeffect
+::::: SET OSDKFILE=psypoker hboeffect psypokerdemo floodfill tables_6 display2 charmap  bitmap2
+
+::SET OSDKNAME=scrollotext
+::SET OSDKFILE=psypoker  time maths futura8   textbanner cycling psypokerdemo   truescrollbanner  rgb80x66 bitmap4 bitmap5  bitmap8 futurafont data80  databitmap4 datafontstop psypoker_variables ytabledemo    rgb_tables raster_data            charmap        bitmap3 databitmap24k time maths metz 
+
+::SET OSDKNAME=deadgame(
+::SET OSDKFILE=  lifegame cycling  main1  tables_6 display2    charmap maths time
+
+::SET OSDKNAME=scarlet
+::SET OSDKFILE=psypoker2 cycling futura8 psypokerdemo2 demo_bitmap rgb80x66 bitmap4 bitmap5 bitmap8  textbanner demo_clores futurafont data80 databitmap4  psypoker_variables ytabledemo raster_data rgb_tables  
+
+::SET OSDKFILE= sampler sampleplay
+
+::SET OSDKNAME=sinustext
+::SET OSDKFILE=psypoker3 sinusscrolltext   futura8 raster_data   bigtext irq oriclogo keyboard aliens ytabledemo sounds time maths mediumtext
+
+
+::SET OSDKNAME=serialmodem
+::SET OSDKFILE=main_serialmodem ytabledemo hexashape floodfill tables_6 display2 time maths newff
+
+
+ :: SET OSDKNAME=skascroll
+ ::  SET OSDKFILE=main_ska ska ytabledemo time maths scrollbit
+
+::SET OSDKNAME=newfill
+::SET OSDKFILE=main_newfill asm_newfill floodfill tables_6 display2 time maths clrscr graphics  
+
+::SET OSKNAME=dividelong
+::SET OSDKFILE=main_dividelong dividelong sebtypes time maths 
+
+::SET OSKNAME=ffp
+::SET OSDKFILE=main_ffp
+
+::SET OSKNAME=wozfp
+::SET OSDKFILE=wozfp_main wozfp_asm iwozfp sebtypes ULONG dividelong
+
+
+::SET OSDKNAME=compression
+:: SET OSDKFILE=  serial_asm    main_compression asm_dec2 futurafont
+
+
+
+::SET OSDKFILE=  asm_main asm_dec  res_dt2  
+::SET OSDKFILE=launcher
+
+
+SET OSDKNAME=notanotherboulderdashclone
+SET OSDKFILE=buldashoric    keyboard boulderdash_fonts buldashoric_sprite buldashoric_data buldashoric_routines  buldashoric_routines2  buldashoric_routines3 
+
+SET OSDKLINK= 	 	
+SET OSDKCOMP=-O3

@@ -1,8 +1,3 @@
-# NotAnotherBoulderDashCloneOricAtmos
-Boulder Dash clone for Oric Atmos
-
------------------------------------------------
-
 hi dear oric fans
 
 here is a recreation of the boulder dash game for the oric atmos 48k
@@ -49,16 +44,6 @@ instructions :
 	return : next level (no life lost) : cheat : hit fast to not loose life !
 	del : previous level (no life lost) : cheat : hit fast to not loose life !
 
-  /*TODO* CHEATS :
-  
-  0 : toggle "infinite lifes"
-  1 : toggle "infinite time"
-  2 : toggle "wall pass" (pass through walls)
-  3 : toggle "god mode"  (monsters and explosions dont kill you)
-  4 : toggle "explose" (key E) (explose all cells aroud you)
-  
-  *TODO*/
-  
 	display:
 
 		diamonds  
@@ -79,9 +64,7 @@ todolist:
 	hires intro image
 	pause !
 	ingame cheat parameters : speed,fps,difficulty,lifes,time  
-	better readme format !
-  
-  
+	
 bug reports & suggestions welcome
 
 enjoy !
