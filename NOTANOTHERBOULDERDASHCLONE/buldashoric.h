@@ -230,7 +230,8 @@ extern char readkeyA();
 #define RENDER_SPRITE   0
 #define RENDER_ASCII 	1
 
-#define clrscr(c) memset((void*)0xbb80,c,1120)
+//#define clrscr(c) memset((void*)0xbb80,c,1120)
+extern void clrscr(unsigned char c);
 
 extern void aWait(unsigned char t);
 extern void drawMapDirectA();

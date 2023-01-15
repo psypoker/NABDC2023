@@ -371,7 +371,8 @@ void decodeCave()
 	struct Cell* cell = (struct Cell*) cells;
 	unsigned char* pcd, * pcd2;
 
-	//	clrscr();
+	clrscr(32);
+	
 	pcd = cavedata = DT[game.index];
 
 	//thecave.name=NAMES[game.index];

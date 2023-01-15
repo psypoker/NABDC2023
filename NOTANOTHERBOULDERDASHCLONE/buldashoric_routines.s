@@ -83,18 +83,18 @@ loop
 
 _clrscr
 .(
-	ldy #0
-	lda (sp),y
-	sta loopx+3
+;	ldy #0
+;	lda (sp),y
+;	sta loopx+3
 
 	lda #$80
 	sta loopy+1
 	lda #$bb
 	sta loopy+2
 
-	ldx #28
+	ldx #28 ; lines
 loopx
-	ldy #39
+	ldy #39 ; columns 
 	lda #" "
 loopy
 	sta $bb80,y
