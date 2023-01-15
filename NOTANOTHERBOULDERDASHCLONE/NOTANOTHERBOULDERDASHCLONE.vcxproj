@@ -109,7 +109,6 @@
     <None Include="osdk_config.bat" />
     <None Include="osdk_execute.bat" />
     <None Include="osdk_showmap.bat" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="buldashoric.c" />
