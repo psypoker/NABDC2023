@@ -92,9 +92,9 @@ _clrscr
 	lda #$bb
 	sta loopy+2
 
-	ldx #5
+	ldx #28
 loopx
-	ldy #223
+	ldy #39
 	lda #" "
 loopy
 	sta $bb80,y
