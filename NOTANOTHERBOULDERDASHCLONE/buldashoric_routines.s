@@ -92,10 +92,16 @@ _clrscr
 	lda #$bb
 	sta loopy+2
 
-	ldx #28
+<<<<<<< HEAD
+	ldx #14 ; lines
 loopx
-	ldy #39
-	lda #" "
+	ldy #79 ; columns 
+=======
+	ldx #28 ; lines
+loopx
+	ldy #39 ; columns 
+>>>>>>> 50c3183eb8423bb279bb49bde3aece84a875250d
+	lda #" " ; char
 loopy
 	sta $bb80,y
 	dey
@@ -103,7 +109,11 @@ loopy
 
 	clc
 	lda loopy+1
-	adc #224
+<<<<<<< HEAD
+	adc #80
+=======
+	adc #40
+>>>>>>> 50c3183eb8423bb279bb49bde3aece84a875250d
 	sta loopy+1
 	bcc skip
 	inc loopy+2

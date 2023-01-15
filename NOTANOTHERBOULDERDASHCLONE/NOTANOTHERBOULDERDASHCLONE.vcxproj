@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -79,7 +79,7 @@
     <NMakePreprocessorDefinitions>_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <IntDir>$(Configuration)\</IntDir>
-    <IncludePath>D:\Emulation\Oric\osdk_1_10\include;D:\EMU\Oric\osdk_1_10\include\sys</IncludePath>
+    <IncludePath>D:\Emulation\Oric\osdk_1_20\include;D:\EMU\Oric\osdk_1_20\include\sys</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakeBuildCommandLine>D:\EMU\ORIC\osdk\bin\vc_make.bat /a</NMakeBuildCommandLine>
@@ -105,10 +105,8 @@
     <None Include="buldashoric_routines2.s" />
     <None Include="buldashoric_routines3.s" />
     <None Include="buldashoric_sprites.s" />
-    <None Include="NABDC!.README" />
     <None Include="osdk_build.bat" />
     <None Include="osdk_config.bat" />
-    <None Include="osdk_config.bat_all" />
     <None Include="osdk_execute.bat" />
     <None Include="osdk_showmap.bat" />
   </ItemGroup>
