@@ -92,9 +92,9 @@ _clrscr
 	lda #$bb
 	sta loopy+2
 
-	ldx #28 ; lines
+	ldx #14 ; lines
 loopx
-	ldy #39 ; columns 
+	ldy #79 ; columns 
 	lda #" " ; char
 loopy
 	sta $bb80,y
@@ -103,7 +103,7 @@ loopy
 
 	clc
 	lda loopy+1
-	adc #40
+	adc #80
 	sta loopy+1
 	bcc skip
 	inc loopy+2
