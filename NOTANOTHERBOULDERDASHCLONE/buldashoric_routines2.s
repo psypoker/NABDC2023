@@ -26,10 +26,9 @@ _newGame
 	sta _score
 	sta _score+1
 	sta _lifes+1
+	sta _difficulty
 	lda #3
 	sta _lifes
-	lda #0
-	sta _difficulty
 	lda $276
 	sta _randomA+1
 	jsr _randomA

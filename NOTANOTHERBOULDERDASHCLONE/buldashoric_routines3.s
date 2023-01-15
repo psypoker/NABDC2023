@@ -189,7 +189,7 @@ _updateBoulderOrDiamondFallingB
 	sta (REG_P),y
 
 	lda #0
-	ldy #0
+	tay
 	sta (REG_P),y
 
 	lda GAME+GAME_FRAME

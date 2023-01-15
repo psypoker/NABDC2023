@@ -781,8 +781,8 @@ unsigned char steelok = FALSE;
 
 // CHEATS
 
-unsigned char infinite_time = FALSE;
-unsigned char infinite_lifes = FALSE;
+unsigned char infinite_time = TRUE;
+unsigned char infinite_lifes = TRUE;
 unsigned char god_mode = FALSE;
 unsigned char wall_pass = FALSE;
 

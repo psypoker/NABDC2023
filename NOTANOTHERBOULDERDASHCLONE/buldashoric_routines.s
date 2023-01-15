@@ -92,17 +92,18 @@ _clrscr
 	lda #$bb
 	sta loopy+2
 
-	ldx #28
+	ldx #5
 loopx
-	ldy #39
+	ldy #223
 	lda #" "
 loopy
 	sta $bb80,y
 	dey
 	bpl loopy
+
 	clc
 	lda loopy+1
-	adc #40
+	adc #224
 	sta loopy+1
 	bcc skip
 	inc loopy+2
@@ -1694,7 +1695,8 @@ skip2
 
 _autoDecreaseTimer
 .(
- 
+	lda _infinite_time
+	bne exit
  
 	lda GAME+GAME_BIRTH 
 	cmp GAME+GAME_FRAME 
