@@ -111,17 +111,12 @@
     <None Include="osdk_config.bat_all" />
     <None Include="osdk_execute.bat" />
     <None Include="osdk_showmap.bat" />
-    <None Include="time.s" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="buldashoric.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buldashoric.h" />
-    <ClInclude Include="time.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="NABDC.README.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
