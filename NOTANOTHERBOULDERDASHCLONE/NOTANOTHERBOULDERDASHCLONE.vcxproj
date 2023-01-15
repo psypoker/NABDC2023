@@ -105,11 +105,11 @@
     <None Include="buldashoric_routines2.s" />
     <None Include="buldashoric_routines3.s" />
     <None Include="buldashoric_sprites.s" />
-    <None Include="NABDC!.README" />
     <None Include="osdk_build.bat" />
     <None Include="osdk_config.bat" />
     <None Include="osdk_execute.bat" />
     <None Include="osdk_showmap.bat" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="buldashoric.c" />
