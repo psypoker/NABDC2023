@@ -83,9 +83,9 @@ loop
 
 _clrscr
 .(
-;	ldy #0
-;	lda (sp),y
-;	sta loopx+3
+	ldy #0
+	lda (sp),y
+	sta loopx+3
 
 	lda #$80
 	sta loopy+1
@@ -95,7 +95,7 @@ _clrscr
 	ldx #28 ; lines
 loopx
 	ldy #39 ; columns 
-	lda #" "
+	lda #" " ; char
 loopy
 	sta $bb80,y
 	dey
@@ -103,7 +103,7 @@ loopy
 
 	clc
 	lda loopy+1
-	adc #224
+	adc #40
 	sta loopy+1
 	bcc skip
 	inc loopy+2
