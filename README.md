@@ -61,9 +61,8 @@ instructions :
   
 	display:
 
-		diamonds  
-	  needed  value  collected   timer    score
-		10	*	10	     0	      100     10000
+	diamonds needed value collected timer score
+	10	 *	10    0         100   10000
 
 ...
 
